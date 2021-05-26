@@ -1,0 +1,24 @@
+TheFatRat installation
+
+cd Desktop
+
+git clone https://github.com/Screetsec/TheFatRat
+
+cd TheFatRat
+
+ls
+
+chmod   +x   setup.sh
+
+sudo  ./setup.sh
+
+press enter
+
+option 2
+
+copy the path 
+
+y
+
+newterminal -   fatrat
+

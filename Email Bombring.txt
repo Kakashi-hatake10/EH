@@ -1,0 +1,29 @@
+Email Bombring
+
+github.com/mazenElzanty/Embomber
+
+copy link
+
+git clone --> pest copied link
+
+cd EmBomber
+
+ls
+
+python EmBomber.py
+
+select no 1
+
+enter email address of gmail
+
+enter password of gmail
+
+type the victim's email
+
+enter email subject
+
+email message
+
+Number of mail
+
+chack in mail id

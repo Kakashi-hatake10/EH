@@ -1,0 +1,48 @@
+Ip Location Finder Using ReconDog
+
+
+
+Open Terminal & type Following Commands 
+
+
+cd Desktop
+
+
+
+git clone hhtps://github.com/PlagueSecurity/ReconDog.git (cloining RaconDog to your kali linux)
+
+
+
+cd ReconDog
+
+
+
+chmid +x dog.py
+
+
+
+python dog.py
+
+
+
+select no 9 (Ip Location Finder)
+
+
+
+Write Any IP Address (EX. 188.166.109.45)
+
+
+
+copy loc:Address
+
+
+
+open google map in web browser or pest loc: address
+
+
+
+select no 10 (trecerouter)
+
+
+
+enter Domain Name : www.facebook.com

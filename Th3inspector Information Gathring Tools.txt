@@ -1,0 +1,29 @@
+Th3inspector Information Gathring Tools
+
+
+
+Cd Desktop
+
+
+
+git clone https://github.com/Moham3dRiahi/Th3inspector.git (cloining Th3inspector to your kali linux)
+
+
+
+cd Th3inspector
+
+
+
+chmod +x install.sh && ./install.sh
+
+
+
+perl Th3inspecter.pl
+
+
+
+select no 01
+
+
+
+domain name : google.com

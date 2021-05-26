@@ -1,0 +1,21 @@
+Ngrok Open With Terminal
+
+./ngrok http 80
+
+open Simple Terminal
+
+Setoolkit
+
+select no 1
+
+Select no 2
+
+Select no 3
+
+Select no 2
+
+pest HTTP URL from ngrok
+
+type domain name: www.facebook.com
+
+pest copied http url in any web brouser 

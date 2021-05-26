@@ -1,0 +1,20 @@
+ngrok
+
+wget  __________ 
+
+ls
+
+unzip ngrok-stable-linux-amd64.zip
+
+./ngrok
+
+Authtokenlink - copy 
+
+enter 
+
+complete 
+
+new terminal 
+
+./ngrok http 80
+

