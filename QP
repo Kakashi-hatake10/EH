@@ -1,0 +1,14 @@
+1.	At INS valsura, you are appointed to check for security holes in your windows based system. Hack the windows system and record keystrokes. (You can turn off Windows defender and firewall). (10 Marks)
+2.	Assume that one of the system in your network has SNMP switched on. Use appropriate tool to enumerate that machine. (10 Marks)
+3.	Use appropriate tools and steal passwords by cloning the login page of facebook (phishing : SEToolkit). (10 Marks)
+4.	Use Fatrat/Metasploit and show how will you create a payload to exploit an android device and establish a connection with infected device (10 Marks).
+5.	Search for Power point presentation related to ethical hacking and construct a query such that only the websites that has ppt for this subject are shown in the result. 
+Also use traceroute to facebook.com (5 Marks)  traceroute -T facebook.com
+6.	Show how will you send mass emails at once. (Email Bombing) (5 Marks).
+7.	Implement these. (5 Marks)
+a.	Construct a search query such that results returned are only of facebook.com
+b.	Construct a search query such that the results returned are related to facebook.com
+8.	Find information about google.com using whois query. (5 Marks)
+
+tempkakashihatake@gmail.com
+sharingan1234
